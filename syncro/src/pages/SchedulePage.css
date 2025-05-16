@@ -1,0 +1,47 @@
+/* src/pages/SchedulePage.css */
+.schedule-page-container {
+  padding: 20px;
+  height: calc(
+    100vh - 60px - 40px
+  ); /* Full viewport height minus navbar and padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-page-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.calendar-wrapper {
+  flex-grow: 1; /* Allows calendar to take available space */
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Customize react-big-calendar appearance */
+.rbc-toolbar button {
+  color: #337ab7;
+  border: 1px solid #337ab7;
+}
+.rbc-toolbar button.rbc-active {
+  background-color: #337ab7;
+  color: white;
+}
+.rbc-event {
+  background-color: #3174ad;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+.rbc-event-label {
+  /* Hides the time label if you have custom component showing it */
+  display: none;
+}
+.rbc-day-slot .rbc-event {
+  /* Makes events in week/day view take full width for better click target */
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+}

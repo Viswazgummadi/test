@@ -1,0 +1,85 @@
+/* src/features/workoutPlans/components/PlanBuilderForm.css */
+.plan-builder-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .plan-builder-form h2 {
+    margin-top: 0;
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .plan-builder-form h3 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-group textarea {
+      min-height: 60px;
+      font-family: inherit;
+  }
+  
+  .add-exercise-to-plan-btn {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+  }
+  .add-exercise-to-plan-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+  }
+  
+  .save-plan-btn {
+    background-color: #5cb85c;
+    color: white;
+  }
+  .save-plan-btn:hover {
+    background-color: #4cae4c;
+  }
+  
+  .cancel-plan-btn {
+    background-color: #777;
+    color: white;
+  }
+  .cancel-plan-btn:hover {
+    background-color: #666;
+  }

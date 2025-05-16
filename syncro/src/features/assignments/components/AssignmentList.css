@@ -1,0 +1,5 @@
+/* src/features/assignments/components/AssignmentList.css */
+.assignment-list {
+    list-style: none;
+    padding: 0;
+  }

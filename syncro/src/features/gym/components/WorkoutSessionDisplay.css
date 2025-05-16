@@ -1,0 +1,76 @@
+/* src/features/gym/components/WorkoutSessionDisplay.css */
+.workout-session-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  
+  .session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .session-header h4 {
+    margin: 0;
+    color: #3498db;
+  }
+  
+  .delete-session-btn {
+    background-color: #fdecea;
+    color: #d9534f;
+    border: 1px solid #d9534f;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85em;
+  }
+  .delete-session-btn:hover {
+    background-color: #f9d6d5;
+  }
+  
+  .workout-general-notes {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .exercise-log-display {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #eee;
+  }
+  
+  .exercise-log-display h5 {
+    margin: 5px 0;
+    color: #2c3e50;
+  }
+  
+  .exercise-log-display ul {
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .exercise-log-display li {
+    font-size: 0.95em;
+    color: #333;
+    margin-bottom: 3px;
+  }
+  
+  .exercise-specific-notes {
+    font-size: 0.9em;
+    color: #777;
+    margin-left: 15px;
+    font-style: italic;
+  }

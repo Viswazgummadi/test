@@ -1,0 +1,60 @@
+/* src/pages/AssignmentsPage.css */
+.assignments-page-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .assignments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .assignments-header h1 {
+    margin: 0;
+  }
+  
+  .add-assignment-fab { /* FAB = Floating Action Button style */
+    background-color: #808080a2; /* Or your primary color */
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes it circular */
+    font-size: 24px; /* Size of the "+" */
+    line-height: 50px; /* Vertically center the "+" */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  .add-assignment-fab:hover {
+    background-color: #4a4a4ac6; /* Darker shade on hover */
+  }
+  .add-assignment-fab:active {
+      transform: scale(0.95); /* Slight shrink on click */
+  }
+  
+  .no-assignments-message {
+      text-align: center;
+      color: #777;
+      font-style: italic;
+      margin-top: 30px;
+  }
+  
+  /*
+  Optional: If your AddAssignmentForm had its own margin-bottom,
+  you might want to remove it when it's inside a modal,
+  as the modal itself provides padding.
+  For example, in AddAssignmentForm.css:
+  .add-assignment-form {
+    ...
+    margin-bottom: 0; // Changed from 20px if it was there
+  }
+  But the current `AddAssignmentForm.css` doesn't seem to have a problematic margin.
+  */

@@ -1,0 +1,52 @@
+/* src/pages/HabitsPage.css */
+.habits-page-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .habits-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .habits-header h1 {
+    margin: 0;
+  }
+  
+  .add-habit-fab { /* Using same style as assignments for consistency */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+  .add-habit-fab:hover {
+    background-color: #0056b3;
+  }
+  .add-habit-fab:active {
+    transform: scale(0.95);
+  }
+  
+  .no-habits-message {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin-top: 30px;
+  }
+  
+  .habits-list {
+    list-style: none;
+    padding: 0;
+  }

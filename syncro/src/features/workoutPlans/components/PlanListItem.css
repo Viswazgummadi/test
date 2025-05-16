@@ -1,0 +1,53 @@
+/* src/features/workoutPlans/components/PlanListItem.css */
+.plan-list-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.plan-info h3 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+}
+
+.plan-description {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+.plan-exercise-count {
+  font-size: 0.85em;
+  color: #95a5a6;
+}
+
+.plan-actions button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.plan-actions .edit-btn {
+  background-color: #f0ad4e;
+  color: white;
+  border-color: #eea236;
+}
+.plan-actions .edit-btn:hover {
+  background-color: #ec971f;
+}
+
+.plan-actions .delete-btn {
+  background-color: #d9534f;
+  color: white;
+  border-color: #d43f3a;
+}
+.plan-actions .delete-btn:hover {
+  background-color: #c9302c;
+}

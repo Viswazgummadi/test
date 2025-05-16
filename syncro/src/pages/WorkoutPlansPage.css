@@ -1,0 +1,24 @@
+/* src/pages/WorkoutPlansPage.css */
+.workout-plans-page {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .create-plan-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  .create-plan-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .plans-list {
+    margin-top: 20px;
+  }

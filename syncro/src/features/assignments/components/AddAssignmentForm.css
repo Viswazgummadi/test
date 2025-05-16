@@ -1,0 +1,44 @@
+/* src/features/assignments/components/AddAssignmentForm.css */
+.add-assignment-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+  }
+  
+  .add-assignment-form h3 {
+    margin-top: 0;
+  }
+  
+  .add-assignment-form div {
+    margin-bottom: 10px;
+  }
+  
+  .add-assignment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-assignment-form input[type="text"],
+  .add-assignment-form input[type="date"],
+  .add-assignment-form input[type="number"] {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-assignment-form button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-assignment-form button:hover {
+    background-color: #4cae4c;
+  }

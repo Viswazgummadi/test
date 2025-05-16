@@ -1,0 +1,5 @@
+/* src/App.css */
+.main-content {
+    padding: 20px;
+    margin-top: 10px; /* Adjust if your navbar has a fixed height */
+  }

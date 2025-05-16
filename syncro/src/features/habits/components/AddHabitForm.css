@@ -1,0 +1,96 @@
+/* src/features/habits/components/AddHabitForm.css */
+.add-habit-form {
+    /* background-color: #f9f9f9; // Use if not in a modal or if modal has no bg */
+    padding: 0px; /* Modal provides padding */
+    /* border-radius: 5px; */
+    /* margin-bottom: 20px; */
+  }
+  
+  .add-habit-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    /* text-align: center; */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group select {
+    width: 100%; /* Full width within modal padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for width: 100% */
+    font-size: 1em;
+  }
+  .form-group textarea {
+      min-height: 70px;
+      font-family: inherit;
+  }
+  
+  .specific-days-group .days-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .day-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+    padding: 5px 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+  }
+  .day-checkbox-label input[type="checkbox"] {
+      width: auto; /* Override full width */
+  }
+  .day-checkbox-label input[type="checkbox"]:checked + span { /* Example if you wrap text in span */
+      font-weight: bold;
+  }
+  
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  
+  .form-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-actions .save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  .form-actions .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .form-actions .cancel-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  .form-actions .cancel-btn:hover {
+    background-color: #5a6268;
+  }

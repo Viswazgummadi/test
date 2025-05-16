@@ -1,0 +1,61 @@
+/* src/features/gym/components/ExerciseLogger.css */
+.exercise-logger-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .exercise-logger-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .exercise-logger-header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .delete-exercise-btn {
+    background-color: #fbecec;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  .delete-exercise-btn:hover {
+    background-color: #f8d7da;
+  }
+  
+  
+  .add-set-btn {
+    background-color: #e0eafc;
+    color: #3477eb;
+    border: 1px solid #adcafc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  .add-set-btn:hover {
+    background-color: #d0e0fb;
+  }
+  
+  .exercise-notes-input {
+    width: calc(100% - 20px); /* Account for padding */
+    min-height: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-top: 10px;
+  }

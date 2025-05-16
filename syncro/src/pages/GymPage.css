@@ -1,0 +1,34 @@
+/* src/pages/GymPage.css */
+.gym-page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .start-workout-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: block; /* Or inline-block and center with text-align on parent */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .start-workout-btn:hover {
+    background-color: #4cae4c;
+  }
+  
+  .workout-history {
+    margin-top: 40px;
+  }
+  
+  .workout-history h2 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }

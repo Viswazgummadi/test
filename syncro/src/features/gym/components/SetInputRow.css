@@ -1,0 +1,31 @@
+/* src/features/gym/components/SetInputRow.css */
+.set-input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px; /* Spacing between elements */
+  }
+  
+  .set-input-row span {
+    min-width: 40px; /* For "Set X:" */
+  }
+  
+  .set-input-row input[type="number"] {
+    width: 80px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .set-input-row .delete-set-btn {
+    background-color: transparent;
+    color: #e74c3c;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0 5px;
+  }
+  .set-input-row .delete-set-btn:hover {
+    color: #c0392b;
+  }

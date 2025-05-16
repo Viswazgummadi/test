@@ -1,0 +1,90 @@
+/* src/features/schedule/components/EventForm.css */
+.event-form {
+    /* padding is handled by Modal */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="datetime-local"],
+  .form-group input[type="date"],
+  .form-group textarea,
+  .form-group input[type="color"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .form-group input[type="color"] {
+      height: 40px; /* Make color picker a bit taller */
+      padding: 5px;
+  }
+  .form-group textarea {
+    min-height: 80px;
+    font-family: inherit;
+  }
+  
+  .form-group-inline {
+    display: flex;
+    gap: 15px;
+  }
+  .form-group-inline > div {
+    flex: 1;
+  }
+  
+  .form-group-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .form-group-checkbox input[type="checkbox"] {
+    width: auto; /* Override full width for checkbox */
+    margin-top: 0; /* Align with label */
+  }
+  .form-group-checkbox label {
+    margin-bottom: 0; /* Align with checkbox */
+    font-weight: normal;
+  }
+  
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-actions .save-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  .form-actions .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-actions .cancel-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  .form-actions .cancel-btn:hover {
+    background-color: #545b62;
+  }
