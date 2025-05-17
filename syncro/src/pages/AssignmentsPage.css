@@ -58,3 +58,46 @@
   }
   But the current `AddAssignmentForm.css` doesn't seem to have a problematic margin.
   */
+
+  /* src/pages/AssignmentsPage.css */
+/* ... (existing styles for .assignments-page-container, .assignments-header, .add-assignment-fab) ... */
+
+.view-mode-toggle {
+  display: flex;
+  justify-content: center; /* Or flex-start, or add specific styling */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.view-mode-toggle button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.view-mode-toggle button:hover {
+  background-color: #e2e6ea;
+}
+
+.view-mode-toggle button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.no-assignments-message {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}

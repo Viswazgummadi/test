@@ -6,4 +6,6 @@ export interface Assignment {
   dueDate: string; // Or Date object, string is simpler for now
   estimatedTimeHours: number;
   completed: boolean;
+  archived?: boolean; // <-- ADD THIS LINE (optional for existing data)
+  completedDate?: string; // Optional: Store when it was completed
 }
